@@ -18,5 +18,3 @@ vim.opt.shiftwidth = 4
 vim.opt.autoindent = true
 vim.opt.shiftwidth = 4
 vim.opt.fileformat = "unix"
-
-
