@@ -9,6 +9,9 @@ Plug("nvim-tree/nvim-web-devicons")
 Plug("romgrk/barbar.nvim")
 Plug("nvim-lualine/lualine.nvim")
 Plug("nvim-treesitter/nvim-treesitter", {['do'] = ':TSUpdate'})
+Plug("neovim/nvim-lspconfig")
+Plug("williamboman/mason.nvim")
+Plug("williamboman/mason-lspconfig.nvim")
 
 vim.call('plug#end')
 
@@ -22,3 +25,4 @@ require "vimtree"
 require "barbar"
 require "lua_line"
 require "treesitter"
+require "lsp"
